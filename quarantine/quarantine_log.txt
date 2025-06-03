@@ -1,0 +1,5 @@
+2025-05-26T12:38:05.611504 - File: simulated_weather_data_20250526115928281099_1.csv, Reason: File is empty or contains only headers after NA filtering.
+2025-05-26T13:09:48.029978 - File: simulated_weather_data_20250526124154029844_4.csv, Reason: Validation failed at row 3: Row 3: 'timestamp' ('Weather_Station_Main') is unparsable.; Row 3: 'humidity' (1024.19) out of range [0.0, 1.0].; Row 3: 'pressure' is null.
+2025-06-03T14:31:41.661919 - File: simulated_weather_data_20250603143054430256_1.csv, Reason: Validation failed at row 2: Row 2: 'temperature' ('abc') is not a valid number.
+2025-06-03T14:32:04.045978 - File: simulated_weather_data_20250603143054446244_3.csv, Reason: Validation failed at row 9: Row 9: 'humidity' is null.
+2025-06-03T14:32:26.497731 - File: simulated_weather_data_20250603143054457166_5.csv, Reason: Validation failed at row 5: Row 5: 'humidity' is null.

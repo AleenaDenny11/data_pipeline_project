@@ -1,0 +1,540 @@
+2025-05-26 12:37:49,026 - MainPipeline - INFO - ==================================================
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Starting Real-Time Data Pipeline...
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Quarantine folder: d:\jupiterProjectsAleena\real_time_pipeline\quarantine
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Processed folder: d:\jupiterProjectsAleena\real_time_pipeline\processed
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Log file: d:\jupiterProjectsAleena\real_time_pipeline\logs\pipeline.log
+2025-05-26 12:37:49,031 - MainPipeline - INFO - ==================================================
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Performing initial scan of data folder...
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149384438_1.csv. Processing.
+2025-05-26 12:37:49,031 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149384438_1.csv
+2025-05-26 12:37:49,053 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149384438_1.csv' to 'processing_kaggle_weather_chunk_20250526110149384438_1.csv_20250526123749031034' for processing.
+2025-05-26 12:37:49,095 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149384438_1.csv_20250526123749031034
+2025-05-26 12:37:49,095 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149384438_1.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:49,128 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149384438_1.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:49,257 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:49,935 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149384438_1.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:49,951 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149384438_1.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:49,954 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149384438_1.csv'. Moving to processed.
+2025-05-26 12:37:49,961 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149384438_1.csv'.
+2025-05-26 12:37:49,961 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149409691_2.csv. Processing.
+2025-05-26 12:37:49,961 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149409691_2.csv
+2025-05-26 12:37:49,982 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149409691_2.csv' to 'processing_kaggle_weather_chunk_20250526110149409691_2.csv_20250526123749961670' for processing.
+2025-05-26 12:37:50,007 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149409691_2.csv_20250526123749961670
+2025-05-26 12:37:50,007 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149409691_2.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:50,023 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149409691_2.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:50,044 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:50,767 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149409691_2.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:50,767 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149409691_2.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:50,767 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149409691_2.csv'. Moving to processed.
+2025-05-26 12:37:50,783 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149409691_2.csv'.
+2025-05-26 12:37:50,783 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149440702_3.csv. Processing.
+2025-05-26 12:37:50,783 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149440702_3.csv
+2025-05-26 12:37:50,805 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149440702_3.csv' to 'processing_kaggle_weather_chunk_20250526110149440702_3.csv_20250526123750783253' for processing.
+2025-05-26 12:37:50,837 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149440702_3.csv_20250526123750783253
+2025-05-26 12:37:50,837 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149440702_3.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:50,853 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149440702_3.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:50,877 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:51,621 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149440702_3.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:51,635 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149440702_3.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:51,638 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149440702_3.csv'. Moving to processed.
+2025-05-26 12:37:51,644 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149440702_3.csv'.
+2025-05-26 12:37:51,646 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149467997_4.csv. Processing.
+2025-05-26 12:37:51,646 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149467997_4.csv
+2025-05-26 12:37:51,669 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149467997_4.csv' to 'processing_kaggle_weather_chunk_20250526110149467997_4.csv_20250526123751646851' for processing.
+2025-05-26 12:37:51,702 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149467997_4.csv_20250526123751646851
+2025-05-26 12:37:51,702 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149467997_4.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:51,719 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149467997_4.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:51,752 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:52,532 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149467997_4.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:52,545 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149467997_4.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:52,552 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149467997_4.csv'. Moving to processed.
+2025-05-26 12:37:52,552 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149467997_4.csv'.
+2025-05-26 12:37:52,561 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149491419_5.csv. Processing.
+2025-05-26 12:37:52,562 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149491419_5.csv
+2025-05-26 12:37:52,585 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149491419_5.csv' to 'processing_kaggle_weather_chunk_20250526110149491419_5.csv_20250526123752562115' for processing.
+2025-05-26 12:37:52,633 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149491419_5.csv_20250526123752562115
+2025-05-26 12:37:52,638 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149491419_5.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:52,650 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149491419_5.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:52,682 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:53,344 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149491419_5.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:53,344 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149491419_5.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:53,352 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149491419_5.csv'. Moving to processed.
+2025-05-26 12:37:53,352 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149491419_5.csv'.
+2025-05-26 12:37:53,358 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149515061_6.csv. Processing.
+2025-05-26 12:37:53,358 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149515061_6.csv
+2025-05-26 12:37:53,384 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149515061_6.csv' to 'processing_kaggle_weather_chunk_20250526110149515061_6.csv_20250526123753358364' for processing.
+2025-05-26 12:37:53,420 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149515061_6.csv_20250526123753358364
+2025-05-26 12:37:53,423 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149515061_6.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:53,437 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149515061_6.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:53,462 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:54,151 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149515061_6.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:54,151 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149515061_6.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:54,162 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149515061_6.csv'. Moving to processed.
+2025-05-26 12:37:54,162 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149515061_6.csv'.
+2025-05-26 12:37:54,162 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149540751_7.csv. Processing.
+2025-05-26 12:37:54,162 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149540751_7.csv
+2025-05-26 12:37:54,183 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149540751_7.csv' to 'processing_kaggle_weather_chunk_20250526110149540751_7.csv_20250526123754167406' for processing.
+2025-05-26 12:37:54,208 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149540751_7.csv_20250526123754167406
+2025-05-26 12:37:54,208 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149540751_7.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:54,224 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149540751_7.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:54,248 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:55,079 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149540751_7.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:55,083 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149540751_7.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:55,086 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149540751_7.csv'. Moving to processed.
+2025-05-26 12:37:55,086 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149540751_7.csv'.
+2025-05-26 12:37:55,093 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149564833_8.csv. Processing.
+2025-05-26 12:37:55,093 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149564833_8.csv
+2025-05-26 12:37:55,111 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149564833_8.csv' to 'processing_kaggle_weather_chunk_20250526110149564833_8.csv_20250526123755093584' for processing.
+2025-05-26 12:37:55,141 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149564833_8.csv_20250526123755093584
+2025-05-26 12:37:55,144 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149564833_8.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:55,158 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149564833_8.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:55,186 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:55,986 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149564833_8.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:55,996 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149564833_8.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:56,004 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149564833_8.csv'. Moving to processed.
+2025-05-26 12:37:56,004 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149564833_8.csv'.
+2025-05-26 12:37:56,007 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149593554_9.csv. Processing.
+2025-05-26 12:37:56,007 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149593554_9.csv
+2025-05-26 12:37:56,036 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149593554_9.csv' to 'processing_kaggle_weather_chunk_20250526110149593554_9.csv_20250526123756007510' for processing.
+2025-05-26 12:37:56,068 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149593554_9.csv_20250526123756007510
+2025-05-26 12:37:56,068 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149593554_9.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:56,077 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149593554_9.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:56,120 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:56,801 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149593554_9.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:56,809 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149593554_9.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:56,809 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149593554_9.csv'. Moving to processed.
+2025-05-26 12:37:56,809 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149593554_9.csv'.
+2025-05-26 12:37:56,817 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149617133_10.csv. Processing.
+2025-05-26 12:37:56,817 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149617133_10.csv
+2025-05-26 12:37:56,837 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149617133_10.csv' to 'processing_kaggle_weather_chunk_20250526110149617133_10.csv_20250526123756817850' for processing.
+2025-05-26 12:37:56,867 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149617133_10.csv_20250526123756817850
+2025-05-26 12:37:56,867 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149617133_10.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:56,877 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149617133_10.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:56,902 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:57,674 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149617133_10.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:57,677 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149617133_10.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:57,684 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149617133_10.csv'. Moving to processed.
+2025-05-26 12:37:57,686 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149617133_10.csv'.
+2025-05-26 12:37:57,686 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149641411_11.csv. Processing.
+2025-05-26 12:37:57,686 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149641411_11.csv
+2025-05-26 12:37:57,702 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149641411_11.csv' to 'processing_kaggle_weather_chunk_20250526110149641411_11.csv_20250526123757686667' for processing.
+2025-05-26 12:37:57,732 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149641411_11.csv_20250526123757686667
+2025-05-26 12:37:57,732 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149641411_11.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:57,743 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149641411_11.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:57,786 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:58,514 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149641411_11.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:58,528 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149641411_11.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:58,531 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149641411_11.csv'. Moving to processed.
+2025-05-26 12:37:58,535 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149641411_11.csv'.
+2025-05-26 12:37:58,535 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149664699_12.csv. Processing.
+2025-05-26 12:37:58,535 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149664699_12.csv
+2025-05-26 12:37:58,569 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149664699_12.csv' to 'processing_kaggle_weather_chunk_20250526110149664699_12.csv_20250526123758538148' for processing.
+2025-05-26 12:37:58,602 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149664699_12.csv_20250526123758538148
+2025-05-26 12:37:58,602 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149664699_12.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:58,619 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149664699_12.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:58,644 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:37:59,323 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149664699_12.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:37:59,333 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149664699_12.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:37:59,339 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149664699_12.csv'. Moving to processed.
+2025-05-26 12:37:59,339 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149664699_12.csv'.
+2025-05-26 12:37:59,342 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149692138_13.csv. Processing.
+2025-05-26 12:37:59,342 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149692138_13.csv
+2025-05-26 12:37:59,358 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149692138_13.csv' to 'processing_kaggle_weather_chunk_20250526110149692138_13.csv_20250526123759344033' for processing.
+2025-05-26 12:37:59,389 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149692138_13.csv_20250526123759344033
+2025-05-26 12:37:59,389 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149692138_13.csv': Starting validation for 5000 rows.
+2025-05-26 12:37:59,411 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149692138_13.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:37:59,433 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:00,219 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149692138_13.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:00,235 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149692138_13.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:00,235 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149692138_13.csv'. Moving to processed.
+2025-05-26 12:38:00,235 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149692138_13.csv'.
+2025-05-26 12:38:00,248 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149722224_14.csv. Processing.
+2025-05-26 12:38:00,248 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149722224_14.csv
+2025-05-26 12:38:00,283 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149722224_14.csv' to 'processing_kaggle_weather_chunk_20250526110149722224_14.csv_20250526123800248026' for processing.
+2025-05-26 12:38:00,315 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149722224_14.csv_20250526123800248026
+2025-05-26 12:38:00,315 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149722224_14.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:00,339 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149722224_14.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:00,380 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:01,111 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149722224_14.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:01,121 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149722224_14.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:01,123 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149722224_14.csv'. Moving to processed.
+2025-05-26 12:38:01,129 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149722224_14.csv'.
+2025-05-26 12:38:01,129 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149754226_15.csv. Processing.
+2025-05-26 12:38:01,130 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149754226_15.csv
+2025-05-26 12:38:01,145 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149754226_15.csv' to 'processing_kaggle_weather_chunk_20250526110149754226_15.csv_20250526123801130674' for processing.
+2025-05-26 12:38:01,170 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149754226_15.csv_20250526123801130674
+2025-05-26 12:38:01,178 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149754226_15.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:01,188 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149754226_15.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:01,212 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:01,943 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149754226_15.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:01,944 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149754226_15.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:01,951 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149754226_15.csv'. Moving to processed.
+2025-05-26 12:38:01,951 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149754226_15.csv'.
+2025-05-26 12:38:01,958 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149782006_16.csv. Processing.
+2025-05-26 12:38:01,958 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149782006_16.csv
+2025-05-26 12:38:01,979 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149782006_16.csv' to 'processing_kaggle_weather_chunk_20250526110149782006_16.csv_20250526123801958796' for processing.
+2025-05-26 12:38:02,019 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149782006_16.csv_20250526123801958796
+2025-05-26 12:38:02,019 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149782006_16.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:02,042 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149782006_16.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:02,068 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:02,762 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149782006_16.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:02,762 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149782006_16.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:02,777 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149782006_16.csv'. Moving to processed.
+2025-05-26 12:38:02,777 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149782006_16.csv'.
+2025-05-26 12:38:02,777 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149815200_17.csv. Processing.
+2025-05-26 12:38:02,777 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149815200_17.csv
+2025-05-26 12:38:02,813 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149815200_17.csv' to 'processing_kaggle_weather_chunk_20250526110149815200_17.csv_20250526123802777877' for processing.
+2025-05-26 12:38:02,848 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149815200_17.csv_20250526123802777877
+2025-05-26 12:38:02,855 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149815200_17.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:02,869 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149815200_17.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:02,885 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:03,643 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149815200_17.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:03,644 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149815200_17.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:03,666 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149815200_17.csv'. Moving to processed.
+2025-05-26 12:38:03,671 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149815200_17.csv'.
+2025-05-26 12:38:03,674 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149847225_18.csv. Processing.
+2025-05-26 12:38:03,674 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149847225_18.csv
+2025-05-26 12:38:03,692 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149847225_18.csv' to 'processing_kaggle_weather_chunk_20250526110149847225_18.csv_20250526123803674566' for processing.
+2025-05-26 12:38:03,715 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149847225_18.csv_20250526123803674566
+2025-05-26 12:38:03,715 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149847225_18.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:03,729 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149847225_18.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:03,754 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:04,443 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149847225_18.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:04,443 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149847225_18.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:04,455 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149847225_18.csv'. Moving to processed.
+2025-05-26 12:38:04,459 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149847225_18.csv'.
+2025-05-26 12:38:04,459 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149884740_19.csv. Processing.
+2025-05-26 12:38:04,459 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149884740_19.csv
+2025-05-26 12:38:04,482 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149884740_19.csv' to 'processing_kaggle_weather_chunk_20250526110149884740_19.csv_20250526123804459441' for processing.
+2025-05-26 12:38:04,516 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149884740_19.csv_20250526123804459441
+2025-05-26 12:38:04,524 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149884740_19.csv': Starting validation for 5000 rows.
+2025-05-26 12:38:04,536 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149884740_19.csv': Validation complete. 5000 valid rows out of 5000.
+2025-05-26 12:38:04,553 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,306 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149884740_19.csv': Inserted 5000 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,307 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149884740_19.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,312 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149884740_19.csv'. Moving to processed.
+2025-05-26 12:38:05,312 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149884740_19.csv'.
+2025-05-26 12:38:05,312 - MainPipeline - INFO - Initial scan: Found file data\kaggle_weather_chunk_20250526110149920333_20.csv. Processing.
+2025-05-26 12:38:05,312 - MainPipeline - INFO - Processing new file: data\kaggle_weather_chunk_20250526110149920333_20.csv
+2025-05-26 12:38:05,334 - MainPipeline - INFO - Copied 'kaggle_weather_chunk_20250526110149920333_20.csv' to 'processing_kaggle_weather_chunk_20250526110149920333_20.csv_20250526123805312237' for processing.
+2025-05-26 12:38:05,355 - MainPipeline - INFO - Removed temporary processing file: data\processing_kaggle_weather_chunk_20250526110149920333_20.csv_20250526123805312237
+2025-05-26 12:38:05,359 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149920333_20.csv': Starting validation for 1453 rows.
+2025-05-26 12:38:05,366 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149920333_20.csv': Validation complete. 1453 valid rows out of 1453.
+2025-05-26 12:38:05,400 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,586 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149920333_20.csv': Inserted 1453 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,587 - MainPipeline - INFO - File 'kaggle_weather_chunk_20250526110149920333_20.csv': Inserted/Updated 9 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,596 - MainPipeline - INFO - Successfully stored data from 'kaggle_weather_chunk_20250526110149920333_20.csv'. Moving to processed.
+2025-05-26 12:38:05,596 - MainPipeline - INFO - Database connection closed for file 'kaggle_weather_chunk_20250526110149920333_20.csv'.
+2025-05-26 12:38:05,596 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526115928281099_1.csv. Processing.
+2025-05-26 12:38:05,596 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526115928281099_1.csv
+2025-05-26 12:38:05,605 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526115928281099_1.csv' to 'processing_simulated_weather_data_20250526115928281099_1.csv_20250526123805596254' for processing.
+2025-05-26 12:38:05,607 - MainPipeline - WARNING - File 'simulated_weather_data_20250526115928281099_1.csv' (from processing_simulated_weather_data_20250526115928281099_1.csv_20250526123805596254) is empty. Quarantining original.
+2025-05-26 12:38:05,611 - MainPipeline - WARNING - File 'simulated_weather_data_20250526115928281099_1.csv' moved to quarantine. Reason: File is empty or contains only headers after NA filtering.
+2025-05-26 12:38:05,612 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526115928281099_1.csv_20250526123805596254
+2025-05-26 12:38:05,612 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526122008603477_1.csv. Processing.
+2025-05-26 12:38:05,612 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526122008603477_1.csv
+2025-05-26 12:38:05,617 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526122008603477_1.csv' to 'processing_simulated_weather_data_20250526122008603477_1.csv_20250526123805612450' for processing.
+2025-05-26 12:38:05,619 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526122008603477_1.csv_20250526123805612450
+2025-05-26 12:38:05,619 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_1.csv': Starting validation for 20 rows.
+2025-05-26 12:38:05,644 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_1.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:38:05,679 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,689 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_1.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,693 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_1.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,693 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526122008603477_1.csv'. Moving to processed.
+2025-05-26 12:38:05,701 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526122008603477_1.csv'.
+2025-05-26 12:38:05,701 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526122008603477_2.csv. Processing.
+2025-05-26 12:38:05,701 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526122008603477_2.csv
+2025-05-26 12:38:05,701 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526122008603477_2.csv' to 'processing_simulated_weather_data_20250526122008603477_2.csv_20250526123805701334' for processing.
+2025-05-26 12:38:05,709 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526122008603477_2.csv_20250526123805701334
+2025-05-26 12:38:05,709 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_2.csv': Starting validation for 20 rows.
+2025-05-26 12:38:05,720 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_2.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:38:05,736 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,744 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_2.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,745 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008603477_2.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,749 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526122008603477_2.csv'. Moving to processed.
+2025-05-26 12:38:05,749 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526122008603477_2.csv'.
+2025-05-26 12:38:05,749 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526122008619143_3.csv. Processing.
+2025-05-26 12:38:05,749 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526122008619143_3.csv
+2025-05-26 12:38:05,776 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526122008619143_3.csv' to 'processing_simulated_weather_data_20250526122008619143_3.csv_20250526123805749558' for processing.
+2025-05-26 12:38:05,780 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526122008619143_3.csv_20250526123805749558
+2025-05-26 12:38:05,780 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_3.csv': Starting validation for 20 rows.
+2025-05-26 12:38:05,780 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_3.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:38:05,811 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,817 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_3.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,824 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_3.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,824 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526122008619143_3.csv'. Moving to processed.
+2025-05-26 12:38:05,832 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526122008619143_3.csv'.
+2025-05-26 12:38:05,836 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526122008619143_4.csv. Processing.
+2025-05-26 12:38:05,836 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526122008619143_4.csv
+2025-05-26 12:38:05,844 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526122008619143_4.csv' to 'processing_simulated_weather_data_20250526122008619143_4.csv_20250526123805836297' for processing.
+2025-05-26 12:38:05,852 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526122008619143_4.csv_20250526123805836297
+2025-05-26 12:38:05,852 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_4.csv': Starting validation for 20 rows.
+2025-05-26 12:38:05,861 - MainPipeline - WARNING - File 'simulated_weather_data_20250526122008619143_4.csv': 1 rows had invalid timestamp formats and were set to NaT.
+2025-05-26 12:38:05,874 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_4.csv': Validation complete. 19 valid rows out of 20.
+2025-05-26 12:38:05,874 - MainPipeline - WARNING - File 'simulated_weather_data_20250526122008619143_4.csv': Summary of row-level issues: File 'simulated_weather_data_20250526122008619143_4.csv': 1 rows had invalid timestamp formats and were set to NaT.
+2025-05-26 12:38:05,924 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:05,938 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_4.csv': Inserted 19 rows into 'raw_sensor_data'.
+2025-05-26 12:38:05,945 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008619143_4.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:05,945 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526122008619143_4.csv'. Moving to processed.
+2025-05-26 12:38:05,953 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526122008619143_4.csv'.
+2025-05-26 12:38:05,953 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526122008626868_5.csv. Processing.
+2025-05-26 12:38:05,953 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526122008626868_5.csv
+2025-05-26 12:38:05,961 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526122008626868_5.csv' to 'processing_simulated_weather_data_20250526122008626868_5.csv_20250526123805953378' for processing.
+2025-05-26 12:38:05,973 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526122008626868_5.csv_20250526123805953378
+2025-05-26 12:38:05,973 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008626868_5.csv': Starting validation for 20 rows.
+2025-05-26 12:38:05,985 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008626868_5.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:38:06,019 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:38:06,035 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008626868_5.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:38:06,044 - MainPipeline - INFO - File 'simulated_weather_data_20250526122008626868_5.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:38:06,044 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526122008626868_5.csv'. Moving to processed.
+2025-05-26 12:38:06,052 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526122008626868_5.csv'.
+2025-05-26 12:38:06,054 - MainPipeline - INFO - Initial scan complete. Now monitoring for new files every 5 seconds (watchdog is event-based)...
+2025-05-26 12:42:38,130 - MainPipeline - INFO - ==================================================
+2025-05-26 12:42:38,130 - MainPipeline - INFO - Starting Real-Time Data Pipeline...
+2025-05-26 12:42:38,130 - MainPipeline - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-05-26 12:42:38,130 - MainPipeline - INFO - Quarantine folder: d:\jupiterProjectsAleena\real_time_pipeline\quarantine
+2025-05-26 12:42:38,130 - MainPipeline - INFO - Processed folder: d:\jupiterProjectsAleena\real_time_pipeline\processed
+2025-05-26 12:42:38,130 - MainPipeline - INFO - Log file: d:\jupiterProjectsAleena\real_time_pipeline\logs\pipeline.log
+2025-05-26 12:42:38,130 - MainPipeline - INFO - ==================================================
+2025-05-26 12:42:38,140 - MainPipeline - INFO - Performing initial scan of data folder...
+2025-05-26 12:42:38,140 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124147150882_1.csv. Processing.
+2025-05-26 12:42:38,140 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124147150882_1.csv
+2025-05-26 12:42:38,147 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124147150882_1.csv' to 'processing_simulated_weather_data_20250526124147150882_1.csv_20250526124238140484' for processing.
+2025-05-26 12:42:38,156 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124147150882_1.csv_20250526124238140484
+2025-05-26 12:42:38,156 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_1.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,163 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_1.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,264 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,264 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_1.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,279 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_1.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,284 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124147150882_1.csv'. Moving to processed.
+2025-05-26 12:42:38,289 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124147150882_1.csv'.
+2025-05-26 12:42:38,291 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124147150882_2.csv. Processing.
+2025-05-26 12:42:38,291 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124147150882_2.csv
+2025-05-26 12:42:38,312 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124147150882_2.csv' to 'processing_simulated_weather_data_20250526124147150882_2.csv_20250526124238291247' for processing.
+2025-05-26 12:42:38,321 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124147150882_2.csv_20250526124238291247
+2025-05-26 12:42:38,321 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_2.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,346 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_2.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,396 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,411 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_2.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,413 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147150882_2.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,427 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124147150882_2.csv'. Moving to processed.
+2025-05-26 12:42:38,427 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124147150882_2.csv'.
+2025-05-26 12:42:38,432 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124147163102_3.csv. Processing.
+2025-05-26 12:42:38,432 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124147163102_3.csv
+2025-05-26 12:42:38,466 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124147163102_3.csv' to 'processing_simulated_weather_data_20250526124147163102_3.csv_20250526124238432339' for processing.
+2025-05-26 12:42:38,471 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124147163102_3.csv_20250526124238432339
+2025-05-26 12:42:38,471 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147163102_3.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,486 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147163102_3.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,504 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,514 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147163102_3.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,520 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147163102_3.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,520 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124147163102_3.csv'. Moving to processed.
+2025-05-26 12:42:38,520 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124147163102_3.csv'.
+2025-05-26 12:42:38,520 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124147165177_4.csv. Processing.
+2025-05-26 12:42:38,520 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124147165177_4.csv
+2025-05-26 12:42:38,537 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124147165177_4.csv' to 'processing_simulated_weather_data_20250526124147165177_4.csv_20250526124238520679' for processing.
+2025-05-26 12:42:38,547 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124147165177_4.csv_20250526124238520679
+2025-05-26 12:42:38,547 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147165177_4.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,547 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147165177_4.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,566 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,579 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147165177_4.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,581 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147165177_4.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,581 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124147165177_4.csv'. Moving to processed.
+2025-05-26 12:42:38,581 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124147165177_4.csv'.
+2025-05-26 12:42:38,590 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124147176768_5.csv. Processing.
+2025-05-26 12:42:38,590 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124147176768_5.csv
+2025-05-26 12:42:38,596 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124147176768_5.csv' to 'processing_simulated_weather_data_20250526124147176768_5.csv_20250526124238590117' for processing.
+2025-05-26 12:42:38,599 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124147176768_5.csv_20250526124238590117
+2025-05-26 12:42:38,599 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147176768_5.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,613 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124147176768_5.csv': 1 rows had invalid timestamp formats and were set to NaT.
+2025-05-26 12:42:38,622 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147176768_5.csv': Validation complete. 19 valid rows out of 20.
+2025-05-26 12:42:38,622 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124147176768_5.csv': Summary of row-level issues: File 'simulated_weather_data_20250526124147176768_5.csv': 1 rows had invalid timestamp formats and were set to NaT.
+2025-05-26 12:42:38,663 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,669 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147176768_5.csv': Inserted 19 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,680 - MainPipeline - INFO - File 'simulated_weather_data_20250526124147176768_5.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,682 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124147176768_5.csv'. Moving to processed.
+2025-05-26 12:42:38,686 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124147176768_5.csv'.
+2025-05-26 12:42:38,686 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154013229_1.csv. Processing.
+2025-05-26 12:42:38,686 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154013229_1.csv
+2025-05-26 12:42:38,694 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154013229_1.csv' to 'processing_simulated_weather_data_20250526124154013229_1.csv_20250526124238686742' for processing.
+2025-05-26 12:42:38,702 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154013229_1.csv_20250526124238686742
+2025-05-26 12:42:38,702 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154013229_1.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,712 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154013229_1.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,736 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,754 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154013229_1.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,762 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154013229_1.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,764 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124154013229_1.csv'. Moving to processed.
+2025-05-26 12:42:38,768 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154013229_1.csv'.
+2025-05-26 12:42:38,768 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154025239_2.csv. Processing.
+2025-05-26 12:42:38,770 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154025239_2.csv
+2025-05-26 12:42:38,795 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154025239_2.csv' to 'processing_simulated_weather_data_20250526124154025239_2.csv_20250526124238770835' for processing.
+2025-05-26 12:42:38,803 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154025239_2.csv_20250526124238770835
+2025-05-26 12:42:38,804 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_2.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,814 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_2.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,848 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,862 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_2.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,870 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_2.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,870 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124154025239_2.csv'. Moving to processed.
+2025-05-26 12:42:38,877 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154025239_2.csv'.
+2025-05-26 12:42:38,879 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154025239_3.csv. Processing.
+2025-05-26 12:42:38,879 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154025239_3.csv
+2025-05-26 12:42:38,905 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154025239_3.csv' to 'processing_simulated_weather_data_20250526124154025239_3.csv_20250526124238879311' for processing.
+2025-05-26 12:42:38,910 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154025239_3.csv_20250526124238879311
+2025-05-26 12:42:38,910 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_3.csv': Starting validation for 20 rows.
+2025-05-26 12:42:38,918 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_3.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:38,951 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:38,962 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_3.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:38,964 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154025239_3.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:38,964 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124154025239_3.csv'. Moving to processed.
+2025-05-26 12:42:38,970 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154025239_3.csv'.
+2025-05-26 12:42:38,973 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154029844_4.csv. Processing.
+2025-05-26 12:42:38,973 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154029844_4.csv
+2025-05-26 12:42:38,988 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154029844_4.csv' to 'processing_simulated_weather_data_20250526124154029844_4.csv_20250526124238973592' for processing.
+2025-05-26 12:42:38,990 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154029844_4.csv_20250526124238973592
+2025-05-26 12:42:38,994 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_4.csv': Starting validation for 20 rows.
+2025-05-26 12:42:39,002 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv': 1 temperature readings out of range (-50.0°C - 50.0°C). These rows will be excluded from these metrics.
+2025-05-26 12:42:39,002 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_4.csv': Validation complete. 19 valid rows out of 20.
+2025-05-26 12:42:39,002 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv': Summary of row-level issues: File 'simulated_weather_data_20250526124154029844_4.csv': 1 temperature readings out of range (-50.0°C - 50.0°C). These rows will be excluded from these metrics.
+2025-05-26 12:42:39,035 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:39,046 - MainPipeline - ERROR - Database error storing data for 'simulated_weather_data_20250526124154029844_4.csv': 1054 (42S22): Unknown column 'nan' in 'field list'
+2025-05-26 12:42:39,046 - MainPipeline - ERROR - Failed to store data for 'simulated_weather_data_20250526124154029844_4.csv' in DB. File remains in data folder for retry.
+2025-05-26 12:42:39,046 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154029844_4.csv'.
+2025-05-26 12:42:39,046 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154029844_5.csv. Processing.
+2025-05-26 12:42:39,046 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154029844_5.csv
+2025-05-26 12:42:39,060 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154029844_5.csv' to 'processing_simulated_weather_data_20250526124154029844_5.csv_20250526124239046113' for processing.
+2025-05-26 12:42:39,062 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154029844_5.csv_20250526124239046113
+2025-05-26 12:42:39,062 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_5.csv': Starting validation for 20 rows.
+2025-05-26 12:42:39,070 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_5.csv': Validation complete. 20 valid rows out of 20.
+2025-05-26 12:42:39,092 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:42:39,095 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_5.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-05-26 12:42:39,104 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_5.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-05-26 12:42:39,105 - MainPipeline - INFO - Successfully stored data from 'simulated_weather_data_20250526124154029844_5.csv'. Moving to processed.
+2025-05-26 12:42:39,108 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154029844_5.csv'.
+2025-05-26 12:42:39,108 - MainPipeline - INFO - Initial scan complete. Now monitoring for new files every 5 seconds (watchdog is event-based)...
+2025-05-26 12:44:50,594 - MainPipeline - INFO - ==================================================
+2025-05-26 12:44:50,595 - MainPipeline - INFO - Starting Real-Time Data Pipeline...
+2025-05-26 12:44:50,595 - MainPipeline - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-05-26 12:44:50,595 - MainPipeline - INFO - Quarantine folder: d:\jupiterProjectsAleena\real_time_pipeline\quarantine
+2025-05-26 12:44:50,595 - MainPipeline - INFO - Processed folder: d:\jupiterProjectsAleena\real_time_pipeline\processed
+2025-05-26 12:44:50,596 - MainPipeline - INFO - Log file: d:\jupiterProjectsAleena\real_time_pipeline\logs\pipeline.log
+2025-05-26 12:44:50,596 - MainPipeline - INFO - ==================================================
+2025-05-26 12:44:50,601 - MainPipeline - INFO - Performing initial scan of data folder...
+2025-05-26 12:44:50,603 - MainPipeline - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154029844_4.csv. Processing.
+2025-05-26 12:44:50,603 - MainPipeline - INFO - Processing new file: data\simulated_weather_data_20250526124154029844_4.csv
+2025-05-26 12:44:50,604 - MainPipeline - INFO - Copied 'simulated_weather_data_20250526124154029844_4.csv' to 'processing_simulated_weather_data_20250526124154029844_4.csv_20250526124450603336' for processing.
+2025-05-26 12:44:50,615 - MainPipeline - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154029844_4.csv_20250526124450603336
+2025-05-26 12:44:50,615 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_4.csv': Starting validation for 20 rows.
+2025-05-26 12:44:50,621 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv': 1 rows had invalid timestamp formats and were set to NaT.
+2025-05-26 12:44:50,623 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv': 1 temperature readings out of range (-50.0°C - 50.0°C). These rows will be excluded from these metrics.
+2025-05-26 12:44:50,629 - MainPipeline - INFO - File 'simulated_weather_data_20250526124154029844_4.csv': Validation complete. 18 valid rows out of 20.
+2025-05-26 12:44:50,629 - MainPipeline - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv': Summary of row-level issues: File 'simulated_weather_data_20250526124154029844_4.csv': 1 rows had invalid timestamp formats and were set to NaT.; File 'simulated_weather_data_20250526124154029844_4.csv': 1 temperature readings out of range (-50.0°C - 50.0°C). These rows will be excluded from these metrics.
+2025-05-26 12:44:50,698 - MainPipeline - INFO - Successfully connected to database.
+2025-05-26 12:44:50,698 - MainPipeline - ERROR - Database error storing data for 'simulated_weather_data_20250526124154029844_4.csv': 1054 (42S22): Unknown column 'nan' in 'field list'
+2025-05-26 12:44:50,698 - MainPipeline - ERROR - Failed to store data for 'simulated_weather_data_20250526124154029844_4.csv' in DB. File remains in data folder for retry.
+2025-05-26 12:44:50,698 - MainPipeline - INFO - Database connection closed for file 'simulated_weather_data_20250526124154029844_4.csv'.
+2025-05-26 12:44:50,711 - MainPipeline - INFO - Initial scan complete. Now monitoring for new files every 5 seconds (watchdog is event-based)...
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - ==================================================
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - Starting Real-Time Data Pipeline (STRICT VALIDATION)...
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - Performing initial scan of data folder...
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250526124154029844_4.csv. Processing.
+2025-05-26 13:09:47,998 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250526124154029844_4.csv
+2025-05-26 13:09:48,004 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250526124154029844_4.csv' to 'processing_simulated_weather_data_20250526124154029844_4.csv_20250526130947998824' for processing.
+2025-05-26 13:09:48,021 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250526124154029844_4.csv_20250526130947998824
+2025-05-26 13:09:48,021 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250526124154029844_4.csv': Starting STRICT validation for 20 rows.
+2025-05-26 13:09:48,029 - MainPipelineStrict - ERROR - File 'simulated_weather_data_20250526124154029844_4.csv': Row 3 (original index 1) failed validation. Errors: Row 3: 'timestamp' ('Weather_Station_Main') is unparsable.; Row 3: 'humidity' (1024.19) out of range [0.0, 1.0].; Row 3: 'pressure' is null.. Data: {'timestamp': 'Weather_Station_Main', 'sensor_id': '12.76', 'temperature': '0.32', 'humidity': '1024.19', 'pressure': nan}. Quarantining file.
+2025-05-26 13:09:48,029 - MainPipelineStrict - WARNING - Strict validation failed for 'simulated_weather_data_20250526124154029844_4.csv'. Quarantining. Summary: Validation failed at row 3: Row 3: 'timestamp' ('Weather_Station_Main') is unparsable.; Row 3: 'humidity' (1024.19) out of range [0.0, 1.0].; Row 3: 'pressure' is null.
+2025-05-26 13:09:48,029 - MainPipelineStrict - WARNING - File 'simulated_weather_data_20250526124154029844_4.csv' moved to quarantine. Reason: Validation failed at row 3: Row 3: 'timestamp' ('Weather_Station_Main') is unparsable.; Row 3: 'humidity' (1024.19) out of range [0.0, 1.0].; Row 3: 'pressure' is null.
+2025-05-26 13:09:48,029 - MainPipelineStrict - INFO - Initial scan complete. Now monitoring...
+2025-06-03 14:26:09,131 - MainPipelineStrict - INFO - ==================================================
+2025-06-03 14:26:09,131 - MainPipelineStrict - INFO - Starting Real-Time Data Pipeline (STRICT VALIDATION)...
+2025-06-03 14:26:09,131 - MainPipelineStrict - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-06-03 14:26:09,131 - MainPipelineStrict - INFO - Performing initial scan of data folder...
+2025-06-03 14:26:09,131 - MainPipelineStrict - INFO - Initial scan complete. Now monitoring...
+2025-06-03 14:31:41,568 - MainPipelineStrict - INFO - ==================================================
+2025-06-03 14:31:41,568 - MainPipelineStrict - INFO - Starting Real-Time Data Pipeline (STRICT VALIDATION)...
+2025-06-03 14:31:41,568 - MainPipelineStrict - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-06-03 14:31:41,573 - MainPipelineStrict - INFO - Performing initial scan of data folder...
+2025-06-03 14:31:41,578 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054430256_1.csv. Processing.
+2025-06-03 14:31:41,578 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054430256_1.csv
+2025-06-03 14:31:41,615 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054430256_1.csv' to 'processing_simulated_weather_data_20250603143054430256_1.csv_20250603143141578797' for processing.
+2025-06-03 14:31:41,628 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054430256_1.csv_20250603143141578797
+2025-06-03 14:31:41,628 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054430256_1.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:31:41,654 - MainPipelineStrict - ERROR - File 'simulated_weather_data_20250603143054430256_1.csv': Row 2 (original index 0) failed validation. Errors: Row 2: 'temperature' ('abc') is not a valid number.. Data: {'timestamp': '2025-06-03 09:36:54', 'sensor_id': 'Kaggle_Sim_B02', 'temperature': 'abc', 'humidity': '0.51', 'pressure': '1000.04'}. Quarantining file.
+2025-06-03 14:31:41,660 - MainPipelineStrict - WARNING - Strict validation failed for 'simulated_weather_data_20250603143054430256_1.csv'. Quarantining. Summary: Validation failed at row 2: Row 2: 'temperature' ('abc') is not a valid number.
+2025-06-03 14:31:41,661 - MainPipelineStrict - WARNING - File 'simulated_weather_data_20250603143054430256_1.csv' moved to quarantine. Reason: Validation failed at row 2: Row 2: 'temperature' ('abc') is not a valid number.
+2025-06-03 14:31:41,666 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054446244_2.csv. Processing.
+2025-06-03 14:31:41,667 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054446244_2.csv
+2025-06-03 14:31:41,686 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054446244_2.csv' to 'processing_simulated_weather_data_20250603143054446244_2.csv_20250603143141667269' for processing.
+2025-06-03 14:31:41,686 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054446244_2.csv_20250603143141667269
+2025-06-03 14:31:41,694 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:31:41,710 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': All 20 rows passed strict validation.
+2025-06-03 14:31:41,721 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Strict validation and transformation complete. All 20 rows are valid.
+2025-06-03 14:31:45,845 - MainPipelineStrict - ERROR - Database connection failed (attempt 1/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:31:45,846 - MainPipelineStrict - INFO - Retrying in 5 seconds...
+2025-06-03 14:31:54,908 - MainPipelineStrict - ERROR - Database connection failed (attempt 2/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:31:54,908 - MainPipelineStrict - INFO - Retrying in 5 seconds...
+2025-06-03 14:32:03,997 - MainPipelineStrict - ERROR - Database connection failed (attempt 3/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:32:03,997 - MainPipelineStrict - ERROR - Max retry attempts reached for DB connection.
+2025-06-03 14:32:03,997 - MainPipelineStrict - ERROR - Could not connect to database. File 'simulated_weather_data_20250603143054446244_2.csv' not processed, remains in data folder.
+2025-06-03 14:32:03,997 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054446244_3.csv. Processing.
+2025-06-03 14:32:03,997 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054446244_3.csv
+2025-06-03 14:32:03,997 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054446244_3.csv' to 'processing_simulated_weather_data_20250603143054446244_3.csv_20250603143203997449' for processing.
+2025-06-03 14:32:04,013 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054446244_3.csv_20250603143203997449
+2025-06-03 14:32:04,013 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_3.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:32:04,045 - MainPipelineStrict - ERROR - File 'simulated_weather_data_20250603143054446244_3.csv': Row 9 (original index 7) failed validation. Errors: Row 9: 'humidity' is null.. Data: {'timestamp': '2025-06-03 11:19:54', 'sensor_id': 'Weather_Station_Main', 'temperature': '12.42', 'humidity': nan, 'pressure': '1042.72'}. Quarantining file.
+2025-06-03 14:32:04,045 - MainPipelineStrict - WARNING - Strict validation failed for 'simulated_weather_data_20250603143054446244_3.csv'. Quarantining. Summary: Validation failed at row 9: Row 9: 'humidity' is null.
+2025-06-03 14:32:04,045 - MainPipelineStrict - WARNING - File 'simulated_weather_data_20250603143054446244_3.csv' moved to quarantine. Reason: Validation failed at row 9: Row 9: 'humidity' is null.
+2025-06-03 14:32:04,045 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054446244_4.csv. Processing.
+2025-06-03 14:32:04,045 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054446244_4.csv
+2025-06-03 14:32:04,089 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054446244_4.csv' to 'processing_simulated_weather_data_20250603143054446244_4.csv_20250603143204045978' for processing.
+2025-06-03 14:32:04,093 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054446244_4.csv_20250603143204045978
+2025-06-03 14:32:04,093 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:32:04,185 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': All 20 rows passed strict validation.
+2025-06-03 14:32:04,191 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Strict validation and transformation complete. All 20 rows are valid.
+2025-06-03 14:32:08,278 - MainPipelineStrict - ERROR - Database connection failed (attempt 1/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:32:08,279 - MainPipelineStrict - INFO - Retrying in 5 seconds...
+2025-06-03 14:32:17,359 - MainPipelineStrict - ERROR - Database connection failed (attempt 2/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:32:17,360 - MainPipelineStrict - INFO - Retrying in 5 seconds...
+2025-06-03 14:32:26,456 - MainPipelineStrict - ERROR - Database connection failed (attempt 3/3): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-06-03 14:32:26,456 - MainPipelineStrict - ERROR - Max retry attempts reached for DB connection.
+2025-06-03 14:32:26,456 - MainPipelineStrict - ERROR - Could not connect to database. File 'simulated_weather_data_20250603143054446244_4.csv' not processed, remains in data folder.
+2025-06-03 14:32:26,456 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054457166_5.csv. Processing.
+2025-06-03 14:32:26,456 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054457166_5.csv
+2025-06-03 14:32:26,482 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054457166_5.csv' to 'processing_simulated_weather_data_20250603143054457166_5.csv_20250603143226461083' for processing.
+2025-06-03 14:32:26,482 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054457166_5.csv_20250603143226461083
+2025-06-03 14:32:26,489 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054457166_5.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:32:26,497 - MainPipelineStrict - ERROR - File 'simulated_weather_data_20250603143054457166_5.csv': Row 5 (original index 3) failed validation. Errors: Row 5: 'humidity' is null.. Data: {'timestamp': '2025-06-01 10:37:54', 'sensor_id': 'Kaggle_Sim_C03', 'temperature': '17.49', 'humidity': nan, 'pressure': '1033.54'}. Quarantining file.
+2025-06-03 14:32:26,497 - MainPipelineStrict - WARNING - Strict validation failed for 'simulated_weather_data_20250603143054457166_5.csv'. Quarantining. Summary: Validation failed at row 5: Row 5: 'humidity' is null.
+2025-06-03 14:32:26,497 - MainPipelineStrict - WARNING - File 'simulated_weather_data_20250603143054457166_5.csv' moved to quarantine. Reason: Validation failed at row 5: Row 5: 'humidity' is null.
+2025-06-03 14:32:26,497 - MainPipelineStrict - INFO - Initial scan complete. Now monitoring...
+2025-06-03 14:33:45,274 - MainPipelineStrict - INFO - ==================================================
+2025-06-03 14:33:45,274 - MainPipelineStrict - INFO - Starting Real-Time Data Pipeline (STRICT VALIDATION)...
+2025-06-03 14:33:45,274 - MainPipelineStrict - INFO - Monitoring folder: d:\jupiterProjectsAleena\real_time_pipeline\data
+2025-06-03 14:33:45,277 - MainPipelineStrict - INFO - Performing initial scan of data folder...
+2025-06-03 14:33:45,282 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054446244_2.csv. Processing.
+2025-06-03 14:33:45,282 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054446244_2.csv
+2025-06-03 14:33:45,286 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054446244_2.csv' to 'processing_simulated_weather_data_20250603143054446244_2.csv_20250603143345282858' for processing.
+2025-06-03 14:33:45,297 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054446244_2.csv_20250603143345282858
+2025-06-03 14:33:45,297 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:33:45,321 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': All 20 rows passed strict validation.
+2025-06-03 14:33:45,329 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Strict validation and transformation complete. All 20 rows are valid.
+2025-06-03 14:33:45,463 - MainPipelineStrict - INFO - Successfully connected to database.
+2025-06-03 14:33:45,492 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-06-03 14:33:45,503 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_2.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-06-03 14:33:45,507 - MainPipelineStrict - INFO - Successfully stored data from 'simulated_weather_data_20250603143054446244_2.csv'. Moving to processed.
+2025-06-03 14:33:45,510 - MainPipelineStrict - INFO - Database connection closed for file 'simulated_weather_data_20250603143054446244_2.csv'.
+2025-06-03 14:33:45,511 - MainPipelineStrict - INFO - Initial scan: Found file data\simulated_weather_data_20250603143054446244_4.csv. Processing.
+2025-06-03 14:33:45,511 - MainPipelineStrict - INFO - Processing new file: data\simulated_weather_data_20250603143054446244_4.csv
+2025-06-03 14:33:45,517 - MainPipelineStrict - INFO - Copied 'simulated_weather_data_20250603143054446244_4.csv' to 'processing_simulated_weather_data_20250603143054446244_4.csv_20250603143345511927' for processing.
+2025-06-03 14:33:45,517 - MainPipelineStrict - INFO - Removed temporary processing file: data\processing_simulated_weather_data_20250603143054446244_4.csv_20250603143345511927
+2025-06-03 14:33:45,524 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Starting STRICT validation for 20 rows.
+2025-06-03 14:33:45,551 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': All 20 rows passed strict validation.
+2025-06-03 14:33:45,551 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Strict validation and transformation complete. All 20 rows are valid.
+2025-06-03 14:33:45,582 - MainPipelineStrict - INFO - Successfully connected to database.
+2025-06-03 14:33:45,591 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Inserted 20 rows into 'raw_sensor_data'.
+2025-06-03 14:33:45,598 - MainPipelineStrict - INFO - File 'simulated_weather_data_20250603143054446244_4.csv': Inserted/Updated 12 rows in 'aggregated_sensor_data'.
+2025-06-03 14:33:45,602 - MainPipelineStrict - INFO - Successfully stored data from 'simulated_weather_data_20250603143054446244_4.csv'. Moving to processed.
+2025-06-03 14:33:45,602 - MainPipelineStrict - INFO - Database connection closed for file 'simulated_weather_data_20250603143054446244_4.csv'.
+2025-06-03 14:33:45,602 - MainPipelineStrict - INFO - Initial scan complete. Now monitoring...
